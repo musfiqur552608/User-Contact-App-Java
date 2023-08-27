@@ -41,7 +41,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.MyView
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.addAndEditContacts(true, contact, position);
+                mainActivity.addAndEditContacts(true, contact, position);
             }
         });
     }
